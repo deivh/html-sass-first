@@ -1,0 +1,38 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+$bg-green-list: green;
+
+body {
+    background-color: lightblue;
+
+    div.container {
+        display: flex;
+        width: 80vw;
+        height: 80vh;
+        margin: auto;
+        background-color: lightcyan;
+
+        div.row {
+            background-color: lightgray;
+
+            h1 {
+                color: blue;
+                font-size: 30px;
+            }
+
+            button {
+                background-color: cadetblue;
+            }
+
+            ul {
+                li{
+                    background-color: $bg-green-list;
+                }
+            }
+        }
+    }
+}
